@@ -234,11 +234,11 @@ def score_job(row):
 
 
 def assign_tier(score):
-    if score >= 80:   return "⭐ Top Pick"
-    elif score >= 60: return "✅ Strong"
-    elif score >= 40: return "👍 Good"
-    elif score >= 20: return "⚠️ Average"
-    else:             return "❌ Low Priority"
+    if score >= 80:   return "Top Pick"
+    elif score >= 60: return "Strong"
+    elif score >= 40: return "Good"
+    elif score >= 20: return "Average"
+    else:             return "Low Priority"
 
 
 #  SCRAPING
